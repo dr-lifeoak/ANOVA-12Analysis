@@ -1,1 +1,2 @@
 # ANOVA-12Analysis
+# This repository is setted with the purpose to practive the code for the ONW-WAY ANOVA analysis for the two sets of Sample,In Order to test whether there is a significant difference in a numerical variable between three or more groups (But in this only three groups of sample as example, meanwhile there is code based on python to generate three group of data with randomly and export in the CSV.file form)
