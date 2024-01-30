@@ -1,3 +1,4 @@
+# 调用python库 numpy pandas statsmodels.formula.api matplotlib
 import numpy as np
 import pandas as pd
 import statsmodels.api as sm
@@ -14,12 +15,12 @@ data = pd.DataFrame({
     'value': np.random.rand(30)
 })
 
-# 2. 多因素ANOVA
+# 2. 多因素ANOVA MOdel set
 model = ols('value ~ C(factor1) + C(factor2) + C(factor1):C(factor2)', data=data).fit()
 anova_results = sm.stats.anova_lm(model, typ=2)
 print(anova_results)
 
-# 3. 三维可视化
+# 3. 三维可视化3Dvisualisation
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
